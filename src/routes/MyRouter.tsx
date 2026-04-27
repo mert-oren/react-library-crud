@@ -14,7 +14,7 @@ const MyRouter = () => {
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
           <Route path="/books" element={<Books />} />
-          <Route path="/add" element={<AddBook />} />
+          <Route path="books/add" element={<AddBook />} />
           <Route path="/books/:id" element={<BookDetail />} />
           <Route path="/books/:id/edit" element={<EditBook />} />
           <Route path="/books/:id/delete" element={<DeleteBook />} />

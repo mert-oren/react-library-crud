@@ -1,11 +1,67 @@
 {
-    "books":[
-        {
-            "id": "1",
-            "name": "Harry Potter",
-            "autor": "JK Rowling",
-            "year": "2004",
-            "summary": "book summary"
-        }
-    ]
+  "books": [
+    {
+      "id": "1",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "autor": "J.K. Rowling",
+      "year": "1997",
+      "summary": "A young boy discovers he is a wizard and begins his magical education at Hogwarts."
+    },
+    {
+      "id": "2",
+      "title": "The Hobbit",
+      "autor": "J.R.R. Tolkien",
+      "year": "1937",
+      "summary": "Bilbo Baggins joins a dangerous adventure to help dwarves reclaim their lost home."
+    },
+    {
+      "id": "3",
+      "title": "1984",
+      "autor": "George Orwell",
+      "year": "1949",
+      "summary": "A man lives under a strict totalitarian regime where freedom and truth are controlled."
+    },
+    {
+      "id": "4",
+      "title": "The Little Prince",
+      "autor": "Antoine de Saint-Exupéry",
+      "year": "1943",
+      "summary": "A young prince travels between planets and learns deep lessons about life and love."
+    },
+    {
+      "id": "5",
+      "title": "To Kill a Mockingbird",
+      "autor": "Harper Lee",
+      "year": "1960",
+      "summary": "A young girl observes racism and injustice in her small town through her father's trial."
+    },
+    {
+      "id": "6",
+      "title": "Pride and Prejudice",
+      "autor": "Jane Austen",
+      "year": "1813",
+      "summary": "Elizabeth Bennet navigates love, pride, family pressure and social expectations."
+    },
+    {
+      "id": "7",
+      "title": "The Great Gatsby",
+      "autor": "F. Scott Fitzgerald",
+      "year": "1925",
+      "summary": "A mysterious millionaire pursues lost love in the glamorous but empty world of the 1920s."
+    },
+    {
+      "id": "8",
+      "title": "The Alchemist",
+      "autor": "Paulo Coelho",
+      "year": "1988",
+      "summary": "A shepherd follows his dream and learns about destiny, courage and personal growth."
+    },
+    {
+      "id": "9",
+      "title": "The Da Vinci Code",
+      "autor": "Dan Brown",
+      "year": "2003",
+      "summary": "A professor follows hidden clues to solve a mystery involving art, religion and secret societies."
+    }
+  ]
 }

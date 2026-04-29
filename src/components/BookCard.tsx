@@ -25,7 +25,7 @@ const BookCard = ({ book: { id, title, year, summary, autor } }: Props) => {
           <p className="text-base-100/70 text-sm leading-relaxed">{summary}</p>
 
           <div className="flex items-start justify-between gap-4">
-            <span className="min-w-0 flex-1 break-words italic tracking-wider text-sm">
+            <span className="min-w-0 flex-1 wrap-break-word italic tracking-wider text-sm">
               Autor: {autor}
             </span>
 

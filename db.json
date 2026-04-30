@@ -5,8 +5,8 @@
       "title": "Harry Potter and the Philosopher's Stone",
       "autor": "J.K. Rowling",
       "year": "1997",
-      "summary": "A young boy discovers he is a wizard and begins his magical education at Hogwarts. As he learns about spells, magical creatures and friendship, he also uncovers secrets about his own past. Together with his friends Ron and Hermione, Harry faces challenges that test his courage and loyalty. The story mixes adventure, mystery and fantasy in a world full of wonder. It is the beginning of Harry's journey against dark forces.",
-      "image": "https://m.media-amazon.com/images/I/81DI+BAN2SL._SL1200_.jpg"
+      "image": "https://m.media-amazon.com/images/I/81DI+BAN2SL._SL1200_.jpg",
+      "summary": "A young boy discovers he is a wizard and begins his magical education at Hogwarts. As he learns about spells, magical creatures and friendship, he also uncovers secrets about his own past. Together with his friends Ron and Hermione, Harry faces challenges that test his courage and loyalty. The story mixes adventure, mystery and fantasy in a world full of wonder. It is the beginning of Harry's journey against dark forces."
     },
     {
       "id": "2",
@@ -72,5 +72,6 @@
       "summary": "A professor follows hidden clues to solve a mystery involving art, religion and secret societies. Robert Langdon is pulled into a dangerous investigation after a murder at the Louvre Museum. As he follows symbols and codes, he uncovers secrets connected to history and faith. The novel moves quickly with puzzles, suspense and unexpected twists. It is a thriller that combines mystery, art history and conspiracy.",
       "image": "https://covers.openlibrary.org/b/isbn/9780307474278-L.jpg"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

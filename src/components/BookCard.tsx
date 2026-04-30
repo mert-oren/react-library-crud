@@ -22,7 +22,7 @@ const BookCard = ({
           {title} ({year})
         </Link>
 
-        <p className="text-base-100/70 text-sm leading-relaxed line-clamp-3">
+        <p className="text-base-100/70 text-sm leading-5 max-h-30 overflow-hidden line-clamp-6">
           {summary}
         </p>
 

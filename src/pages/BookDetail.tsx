@@ -28,13 +28,13 @@ const BookDetail = () => {
       <div className="flex gap-8">
         <Link
           to={`/books/${id}/edit`}
-          className="btn bg-blue-700 border-none px-8 text-xl hover:scale-102 transition duration-300 border-none"
+          className="btn bg-blue-700 px-8 text-xl hover:scale-102 transition duration-300 border-none"
         >
           Edit
         </Link>
         <Link
           to={`/books/${id}/delete`}
-          className="btn bg-red-700 border-none px-6 text-xl hover:scale-102 transition duration-300 border-none"
+          className="btn bg-red-700 px-6 text-xl hover:scale-102 transition duration-300 border-none"
         >
           Delete
         </Link>

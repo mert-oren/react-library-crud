@@ -40,8 +40,6 @@ const EditBook = () => {
       >
         <h1 className="text-3xl font-bold mb-6 text-center">Edit Book</h1>
 
-        <input type="hidden" name="id" defaultValue={book.id} />
-
         <div className="flex flex-col gap-2">
           <label className="font-semibold">Title</label>
           <input

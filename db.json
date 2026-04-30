@@ -2,14 +2,22 @@
   "books": [
     {
       "id": "1",
-      "title": "Harry Potter and the Philosopher's Stone",
-      "autor": "J.K. Rowling",
-      "year": "1997",
-      "image": "https://m.media-amazon.com/images/I/81DI+BAN2SL._SL1200_.jpg",
-      "summary": "A young boy discovers he is a wizard and begins his magical education at Hogwarts. As he learns about spells, magical creatures and friendship, he also uncovers secrets about his own past. Together with his friends Ron and Hermione, Harry faces challenges that test his courage and loyalty. The story mixes adventure, mystery and fantasy in a world full of wonder. It is the beginning of Harry's journey against dark forces."
+      "title": "I Wrote It, So It Exists",
+      "autor": "Mert Ören",
+      "year": "2026",
+      "image": "/src/assets/book-cover.png",
+      "summary": "A humorous and self-aware story about turning unfinished thoughts into something real. Mert, a creative mind with too many ideas and not enough coffee, decides that the only way to finish a book is simply to declare it finished. As the pages grow, he discovers that creativity is less about waiting for perfect inspiration and more about making bold decisions. Between funny doubts, chaotic notes and unexpected confidence, the book becomes a playful reflection on creation itself. It is a witty reminder that sometimes the first step is just saying: I wrote it, so it exists."
     },
     {
       "id": "2",
+      "title": "Journey to the Moon",
+      "autor": "Jules Verne",
+      "year": "1865",
+      "image": "https://covers.openlibrary.org/b/isbn/9780553214208-L.jpg",
+      "summary": "A group of ambitious inventors decide to build a giant cannon that can send people to the Moon. Their bold plan sounds impossible, but they approach it with science, confidence and a little madness. As the project grows, the whole world becomes interested in their mission. The story mixes adventure, imagination and early science fiction ideas. It is a classic tale about curiosity, invention and humanity's dream of reaching space."
+    },
+    {
+      "id": "3",
       "title": "The Hobbit",
       "autor": "J.R.R. Tolkien",
       "year": "1937",
@@ -17,7 +25,7 @@
       "image": "https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg"
     },
     {
-      "id": "3",
+      "id": "4",
       "title": "1984",
       "autor": "George Orwell",
       "year": "1949",
@@ -25,7 +33,7 @@
       "image": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg"
     },
     {
-      "id": "4",
+      "id": "5",
       "title": "The Little Prince",
       "autor": "Antoine de Saint-Exupéry",
       "year": "1943",
@@ -33,7 +41,7 @@
       "image": "https://covers.openlibrary.org/b/isbn/9780156012195-L.jpg"
     },
     {
-      "id": "5",
+      "id": "6",
       "title": "To Kill a Mockingbird",
       "autor": "Harper Lee",
       "year": "1960",
@@ -41,7 +49,7 @@
       "image": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg"
     },
     {
-      "id": "6",
+      "id": "7",
       "title": "Pride and Prejudice",
       "autor": "Jane Austen",
       "year": "1813",
@@ -49,7 +57,7 @@
       "image": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg"
     },
     {
-      "id": "7",
+      "id": "8",
       "title": "The Great Gatsby",
       "autor": "F. Scott Fitzgerald",
       "year": "1925",
@@ -57,7 +65,7 @@
       "image": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg"
     },
     {
-      "id": "8",
+      "id": "9",
       "title": "The Alchemist",
       "autor": "Paulo Coelho",
       "year": "1988",
@@ -65,7 +73,7 @@
       "image": "https://covers.openlibrary.org/b/isbn/9780061122415-L.jpg"
     },
     {
-      "id": "9",
+      "id": "10",
       "title": "The Da Vinci Code",
       "autor": "Dan Brown",
       "year": "2003",

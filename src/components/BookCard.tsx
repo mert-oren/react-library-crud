@@ -32,11 +32,17 @@ const BookCard = ({
           </span>
 
           <div className="card-actions shrink-0 flex-nowrap justify-end gap-2">
-            <Link to={`/books/${id}/edit`} className="btn btn-primary btn-sm">
+            <Link
+              to={`/books/${id}/edit`}
+              className="btn btn-primary btn-sm text-white border-none"
+            >
               Edit
             </Link>
 
-            <Link to={`/books/${id}/delete`} className="btn btn-error btn-sm">
+            <Link
+              to={`/books/${id}/delete`}
+              className="btn bg-red-700 btn-sm border-none text-white"
+            >
               Delete
             </Link>
           </div>

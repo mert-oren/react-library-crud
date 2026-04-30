@@ -6,6 +6,7 @@ import Books from "../pages/Books";
 import BookDetail from "../pages/BookDetail";
 import EditBook from "../pages/EditBook";
 import DeleteBook from "../pages/DeleteBook";
+import NotFound from "../pages/NotFound";
 
 const MyRouter = () => {
   return (
@@ -18,6 +19,7 @@ const MyRouter = () => {
           <Route path="/books/:id" element={<BookDetail />} />
           <Route path="/books/:id/edit" element={<EditBook />} />
           <Route path="/books/:id/delete" element={<DeleteBook />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>

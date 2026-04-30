@@ -14,12 +14,17 @@ const BookDetail = () => {
   if (!book) return "Loading or Book not found...";
 
   return (
-    <div className="flex flex-col items-center justify-center mt-10 text-base-100 gap-12">
+    <div className="flex flex-col items-center justify-center px-30 py-10 text-base-100 gap-12">
+      <img
+        src={book.image}
+        alt={book.title}
+        className="max-h-70 shadow-lg shadow-blue-500/70"
+      />
       <div>
         <h1 className="text-2xl font-bold mb-4">{book.title}</h1>
         <p className="text-center text-xl">({book.year})</p>
       </div>
-      <p>{book.summary}</p>
+      <p className="text-2xl text-center">{book.summary}</p>
       <div className="flex gap-8">
         <Link
           to={`/books/${id}/edit`}
@@ -34,6 +39,9 @@ const BookDetail = () => {
           Delete
         </Link>
       </div>
+      <Link to={"/books"} className="text-blue-600 underline">
+        Back to Library
+      </Link>
     </div>
   );
 };

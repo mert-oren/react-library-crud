@@ -4,5 +4,6 @@ export type Book = {
     autor: string;
     year?: string;
     summary: string;
+    image?: string;
 
 }

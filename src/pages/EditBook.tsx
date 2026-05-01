@@ -6,32 +6,36 @@ import { api } from "../api/api";
 const EditBook = () => {
   const navigate = useNavigate();
   const { id } = useParams();
+
   const [book, setBook] = useState<Book>();
 
   useEffect(() => {
-    api.get<Book>(`books/${id}`).then((res) => setBook(res.data));
+    api.get<Book>(`/books/${id}`).then((res) => setBook(res.data));
   }, [id]);
 
   if (!book) return "Loading or Book can not be found...";
 
-  const handleSubmit = (e: React.SubmitEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     const formData = new FormData(e.currentTarget);
-    const book = Object.fromEntries(formData.entries()) as Book;
+    const updatedBook = Object.fromEntries(formData.entries()) as Book;
 
-    api.get(`/books?title:eq=${book.title}`).then((res) => {
-      if (res.data.length > 1) {
-        alert(`${book.title} zaten var!`);
+    api.get<Book[]>(`/books?title:eq=${updatedBook.title}`).then((res) => {
+      const duplicateBook = res.data.find((b) => b.id !== id);
+
+      if (duplicateBook) {
+        alert(`${updatedBook.title} zaten var!`);
         return;
       }
 
-      api.put(`/books/${id}`, book).then(() => {
-        alert(`${book.title} is edited. You turn back to "Books" page`);
+      api.put<Book>(`/books/${id}`, { ...updatedBook, id }).then(() => {
+        alert(`${updatedBook.title} is edited. You turn back to "Books" page`);
         navigate("/books");
       });
     });
   };
+
   return (
     <div className="flex items-center justify-center bg-gray-200 min-h-150 p-10">
       <form
@@ -52,13 +56,13 @@ const EditBook = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <label className="font-semibold">Autor</label>
+          <label className="font-semibold">Author</label>
           <input
-            name="autor"
+            name="author"
             type="text"
             className="bg-gray-100 p-4 rounded-xl text-lg outline-none focus:ring-2 focus:ring-blue-500"
-            placeholder="Autor"
-            defaultValue={book.autor}
+            placeholder="Author"
+            defaultValue={book.author}
           />
         </div>
 

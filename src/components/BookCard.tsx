@@ -6,7 +6,7 @@ type Props = {
 };
 
 const BookCard = ({
-  book: { id, title, year, summary, autor, image },
+  book: { id, title, year, summary, author, image },
 }: Props) => {
   return (
     <div className="card bg-white w-80 h-140 shadow-md text-base-100 m-4">
@@ -28,7 +28,7 @@ const BookCard = ({
 
         <div className="mt-auto flex items-start justify-between gap-4">
           <span className="min-w-0 flex-1 wrap-break-word italic tracking-wider text-sm line-clamp-2">
-            Autor: {autor}
+            Author: {author}
           </span>
 
           <div className="card-actions shrink-0 flex-nowrap justify-end gap-2">

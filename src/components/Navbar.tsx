@@ -8,10 +8,10 @@ const Navbar = () => {
         <Link to={"/"} className="btn btn-ghost text-2xl tracking-widest">
           Library CRUD
         </Link>
-        <div className="menu flex flex-row underline text-md">
+        <ul className="menu menu-horizontal px-1 underline text-md">
           <NavItem to="/books">Books</NavItem>
           <NavItem to="/books/add">Add</NavItem>
-        </div>
+        </ul>
       </div>
     </div>
   );

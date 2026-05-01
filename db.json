@@ -3,7 +3,7 @@
     {
       "id": "1",
       "title": "I Wrote It, So It Exists",
-      "autor": "Mert Ören",
+      "author": "Mert Ören",
       "year": "2026",
       "image": "/src/assets/book-cover.png",
       "summary": "A humorous and self-aware story about turning unfinished thoughts into something real. Mert, a creative mind with too many ideas and not enough coffee, decides that the only way to finish a book is simply to declare it finished. As the pages grow, he discovers that creativity is less about waiting for perfect inspiration and more about making bold decisions. Between funny doubts, chaotic notes and unexpected confidence, the book becomes a playful reflection on creation itself. It is a witty reminder that sometimes the first step is just saying: I wrote it, so it exists."
@@ -11,7 +11,7 @@
     {
       "id": "2",
       "title": "Journey to the Moon",
-      "autor": "Jules Verne",
+      "author": "Jules Verne",
       "year": "1865",
       "image": "https://covers.openlibrary.org/b/isbn/9780553214208-L.jpg",
       "summary": "A group of ambitious inventors decide to build a giant cannon that can send people to the Moon. Their bold plan sounds impossible, but they approach it with science, confidence and a little madness. As the project grows, the whole world becomes interested in their mission. The story mixes adventure, imagination and early science fiction ideas. It is a classic tale about curiosity, invention and humanity's dream of reaching space."
@@ -19,7 +19,7 @@
     {
       "id": "3",
       "title": "The Hobbit",
-      "autor": "J.R.R. Tolkien",
+      "author": "J.R.R. Tolkien",
       "year": "1937",
       "summary": "Bilbo Baggins joins a dangerous adventure to help dwarves reclaim their lost home. At first, Bilbo is afraid and unsure whether he belongs in such a risky journey. Along the way, he meets trolls, elves, goblins and a mysterious creature named Gollum. He slowly discovers bravery and cleverness within himself. The story is a classic fantasy adventure about growth, courage and unexpected heroism.",
       "image": "https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg"
@@ -27,7 +27,7 @@
     {
       "id": "4",
       "title": "1984",
-      "autor": "George Orwell",
+      "author": "George Orwell",
       "year": "1949",
       "summary": "A man lives under a strict totalitarian regime where freedom and truth are controlled. Winston Smith begins to question the government that watches every part of people's lives. As he searches for truth and personal freedom, he risks everything in a society built on fear. The novel shows how language, history and thought can be manipulated by power. It is a dark warning about surveillance, propaganda and the loss of individuality.",
       "image": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg"
@@ -35,7 +35,7 @@
     {
       "id": "5",
       "title": "The Little Prince",
-      "autor": "Antoine de Saint-Exupéry",
+      "author": "Antoine de Saint-Exupéry",
       "year": "1943",
       "summary": "A young prince travels between planets and learns deep lessons about life and love. During his journey, he meets strange adults who represent different human weaknesses. His conversations reveal important ideas about friendship, imagination and responsibility. The story looks simple, but it carries deep meaning for both children and adults. It reminds readers that the most important things are often invisible to the eye.",
       "image": "https://covers.openlibrary.org/b/isbn/9780156012195-L.jpg"
@@ -43,7 +43,7 @@
     {
       "id": "6",
       "title": "To Kill a Mockingbird",
-      "autor": "Harper Lee",
+      "author": "Harper Lee",
       "year": "1960",
       "summary": "A young girl observes racism and injustice in her small town through her father's trial. Scout Finch grows up while learning difficult truths about people and society. Her father, Atticus Finch, tries to defend an innocent man despite strong prejudice around him. The novel explores morality, empathy and courage through the eyes of a child. It is a powerful story about justice, kindness and standing up for what is right.",
       "image": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg"
@@ -51,7 +51,7 @@
     {
       "id": "7",
       "title": "Pride and Prejudice",
-      "autor": "Jane Austen",
+      "author": "Jane Austen",
       "year": "1813",
       "summary": "Elizabeth Bennet navigates love, pride, family pressure and social expectations. She meets Mr. Darcy, a wealthy man who first appears arrogant and distant. As misunderstandings grow, both characters must confront their own mistakes and assumptions. The novel combines romance, humor and social criticism in a sharp and elegant way. It shows how true understanding often requires humility and personal growth.",
       "image": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg"
@@ -59,7 +59,7 @@
     {
       "id": "8",
       "title": "The Great Gatsby",
-      "autor": "F. Scott Fitzgerald",
+      "author": "F. Scott Fitzgerald",
       "year": "1925",
       "summary": "A mysterious millionaire pursues lost love in the glamorous but empty world of the 1920s. Jay Gatsby throws luxurious parties while secretly hoping to reunite with Daisy Buchanan. Behind the beauty and wealth, the story reveals loneliness, obsession and broken dreams. The novel criticizes the illusion of success and the dark side of the American Dream. It is a poetic and tragic story about love, memory and desire.",
       "image": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg"
@@ -67,7 +67,7 @@
     {
       "id": "9",
       "title": "The Alchemist",
-      "autor": "Paulo Coelho",
+      "author": "Paulo Coelho",
       "year": "1988",
       "summary": "A shepherd follows his dream and learns about destiny, courage and personal growth. Santiago leaves his familiar life behind to search for a hidden treasure. During his journey, he meets people who teach him to listen to his heart and trust the path ahead. The story uses simple language to explore big ideas about purpose and self-discovery. It encourages readers to follow their dreams and recognize the signs around them.",
       "image": "https://covers.openlibrary.org/b/isbn/9780061122415-L.jpg"
@@ -75,7 +75,7 @@
     {
       "id": "10",
       "title": "The Da Vinci Code",
-      "autor": "Dan Brown",
+      "author": "Dan Brown",
       "year": "2003",
       "summary": "A professor follows hidden clues to solve a mystery involving art, religion and secret societies. Robert Langdon is pulled into a dangerous investigation after a murder at the Louvre Museum. As he follows symbols and codes, he uncovers secrets connected to history and faith. The novel moves quickly with puzzles, suspense and unexpected twists. It is a thriller that combines mystery, art history and conspiracy.",
       "image": "https://covers.openlibrary.org/b/isbn/9780307474278-L.jpg"

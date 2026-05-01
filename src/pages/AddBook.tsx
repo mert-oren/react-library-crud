@@ -12,15 +12,15 @@ const AddBook = () => {
     const book = Object.fromEntries(formData.entries()) as Book;
 
     api.get<Book[]>(`/books?title:eq=${book.title}`).then((res) => {
-      if (res.data.length > 1) {
-        alert(`${book.title} zaten var!`);
+      if (res.data.length > 0) {
+        alert(`${book.title} is already exists!`);
         return;
       }
-    });
 
-    api.post<Book>("/books", book).then(() => {
-      alert(`${book.title} added to library!`);
-      navigate("/books");
+      api.post<Book>("/books", book).then(() => {
+        alert(`${book.title} added to library!`);
+        navigate("/books");
+      });
     });
   };
   return (
@@ -43,12 +43,12 @@ const AddBook = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <label className="font-semibold">Autor</label>
+          <label className="font-semibold">author</label>
           <input
-            name="autor"
+            name="author"
             type="text"
             className="bg-gray-100 p-4 rounded-xl text-lg outline-none focus:ring-2 focus:ring-blue-500"
-            placeholder="Autor"
+            placeholder="author"
             required
           />
         </div>
